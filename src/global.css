@@ -1,0 +1,26 @@
+:root {
+  --toastify-color-success: var(--mantine-color-primary-5);
+  --toastify-color-warning: var(--mantine-color-yellow-5);
+  --toastify-color-error: var(--mantine-color-red-5);
+}
+body {
+  background-color: #1a1b1e;
+  overflow: hidden;
+
+  * {
+    ::-webkit-scrollbar {
+      width: 8px; /* Thin width */
+      height: 8px; /* Thin width for horizontal scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+      border-radius: 8px; /* Border radius */
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--mantine-color-gray-1); /* Background of the track */
+      border-radius: 8px; /* Border radius */
+      padding: 20px 0;
+    }
+  }
+}
